@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+* {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+
+.out   {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+    background-image: url("bac.png");
+    
+}
+
+.out h1 {
+    font-weight: 600;
+    margin: 0px 22px;
+    color: #e660ebeb;
+    font-size: 55px;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+
+}
+
+.out  h3 {
+    position: relative;
+    top: 40px;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    padding: 0 0 15px 0px;
+    text-align: center;
+    color: #d988e0;
+    font-size: 35px;
+
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+.option {
+    color: whitesmoke;
+    
+}
+
+.option #search {
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #df4b7f;
+    padding: 11px 15px;
+    display: flex;
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+    position:relative;
+    left: 0px;
+    top: 25px;
+}
+
+.option  #search:hover {
+    background-color: rgb(145, 60, 156);
+    color: rgba(79, 4, 77, 0.725);
+    font-size: 400;
+    font-weight: 600;
+}
+.option  #search a{
+    color: #ffffff;
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+    font-style: normal;
+     text-decoration: none;
+     padding-left:6px ;
+
+}
+.option #settings {
+    
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f56597;
+    padding: 11px 15px;
+
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+    position: relative;
+    left: 0px;
+    top: 35px;
+}
+.option #settings:hover {
+    background-color: rgb(145, 60, 156);
+    color: rgba(70, 4, 74, 0.804);
+    font-size: 400;
+    font-weight: 600;
+
+}
+.option #settings a{
+    color: #ffffff;
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+    font-style: normal;
+     text-decoration: none;
+}
+.logo img {
+    height: 160px;
+    position: relative;
+    right: 0px;
+}
+
+
+
+.whole {
+
+    text-align: center;
+}
+
+.info {
+
+
+    padding: 10px 7px;
+    overflow: hidden;
+}
+
+.input {
+
+    padding: 15px;
+
+
+}
+
+.input #inp1 {
+    width: 190px;
+    height: 26px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.input #inp2 {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+
+.input #inp2:hover {
+    background-color: rgba(83, 4, 83, 0.66);
+    color: white;
+    font-size: 400;
+    font-weight: 400;
+    box-shadow: 6px -5px teal;
+}
+
+
+.box1 h2 {
+
+
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.output {
+
+
+    padding: 20px;
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.output:hover {
+    background-color: rgba(83, 4, 83, 0.66);
+    color: white;
+    font-size: 400;
+    font-weight: 400;
+}
+
+.box2 {
+    border: 2px;
+   
+}
+.subscription{
+    border: #3e0444;
+    border-style: double;
+}
+
+.subscription a{
+    color: #19011c;
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+    font-style: normal;
+   
+   
+     
+     text-decoration: none;
+}
+
+.subscription:hover {
+    background-color: rgba(83, 4, 83, 0.66);
+    color: white;
+    font-size: 400;
+    font-weight: 400;
+}
+
+.lastbox a{
+    display: block;
+    color: #19011c;
+    padding: 20px;
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    border: #19011c;
+    border-style: double;
+    text-decoration: solid;
+   
+}
+
+.lastbox:hover a{
+    background-color: rgba(83, 4, 83, 0.66);
+    color: white;
+    font-size: 400;
+    font-weight: 400;
+   
+}
